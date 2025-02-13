@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./assets/background-img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+     display: flex;
+     justify-content: space-around;
+     height: 75px;
+     background-color: hsla(0, 17%, 88%, 0.3);
+     color: hsla(0, 4%, 19%, 0.3);
+}
+
+.navbar ul{
+  padding-right: 20px;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 600px;
+}
+
+.navbar ul li{
+  display: inline;
+  border-color:rgba(255, 255, 255, 0.355);
+  border-style: solid;
+  border-radius: 30px;
+  margin: 50px ;
+}
+
+.home, .contact, .products, .about{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.903);
+  font-size: 20px;
+
+}
+
+h1{
+  color:azure ;
+  padding-left: 40%;
+  background-color: rgba(156, 140, 140, 0.674);
+  border-radius: 5%;
+  border-width: 0px;
+  border-color: rgba(0, 0, 0, 0.005);
+}

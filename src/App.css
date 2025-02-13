@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./assets/background-img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+     display: flex;
+     justify-content: space-around;
+     height: 75px;
+     background-color: hsla(0, 17%, 88%, 0.3);
+     color: hsla(0, 4%, 19%, 0.3);
+}
+
+.navbar ul{
+  padding-right: 20px;
+  list-style: none;
+}
+
+.navbar ul li{
+  display: inline;
+  border-color:hsla(0, 4%, 19%, 0.3);
+  border-style: solid;
+  border-radius: 50px;
+  margin: 40px;
+}
+
+.home, .contact, .products, .about{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.903);
+  font-size: 20px;
+
+}
+
