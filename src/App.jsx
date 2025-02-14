@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar.jsx'
-import About from './About.jsx'
-import Contact from './Contact.jsx'
-import Home from './Home.jsx'
-import Products from './Products.jsx'
-import Error from './Error.jsx'
+import Navbar from './Navbar.jsx';
+import About from './About.jsx';
+import Contact from './Contact.jsx';
+import Home from './Home.jsx';
+import Products from './Products.jsx';
+import Error from './Error.jsx';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
 
 
